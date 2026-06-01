@@ -758,6 +758,8 @@ function BerandaPage({ navigate }) {
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10" /><line x1="12" y1="8" x2="12" y2="12" /><line x1="12" y1="16" x2="12.01" y2="16" /></svg>
                 Profil Pesantren
               </button>
+            </div>
+          </div>
           <div className="hero-right">
             <div className="hero-video-main">
               <iframe src="https://www.youtube.com/embed/W9N34xCZfCc" title="Nur Antika" allowFullScreen loading="lazy"></iframe>
@@ -1439,7 +1441,7 @@ function PendaftaranPage({ navigate }) {
         <div className="sec-header-center reveal"><div className="sec-tag">Brosur</div><h2 className="sec-h2">Brosur <em>Penerimaan</em></h2><div className="sec-rule"></div></div>
 
         <div className="brosur-grid reveal">
-            <div className="brosur-card">
+          <div className="brosur-card">
             <div className="brosur-visual brosur-landscape">
               <img
                 src={"/src/assets/brosur-depan.png"}
