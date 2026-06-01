@@ -1,0 +1,3 @@
+- [x] 1) Ganti ikon footer (foot-emblem SVG) menjadi gambar `public/favicon.png`
+- [x] 2) Pastikan ukuran gambar mengikuti kotak emblem (40x40) dan styling tidak merusak layout
+- [x] 3) Jalankan build dan cek tidak ada error
