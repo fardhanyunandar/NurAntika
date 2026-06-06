@@ -1003,8 +1003,6 @@ function TentangPage({ navigate }) {
             <div className="map-card" style={{ aspectRatio: 'unset', height: 280 }}>
               <iframe src="https://maps.google.com/maps?hl=en-US&ll=-6.257364,106.460516&output=embed&q=Pondok+Pesantren+Nur+Antika&z=16" allowFullScreen loading="lazy"></iframe>
             </div>
-            <div style={{ background: 'var(--c-white)', border: '1px solid var(--c-border)', borderRadius: 'var(--radius-lg)', padding: '1.8rem' }}>
-              <div className="contact-lbl" style={{ display: 'block', marginBottom: '1rem' }}>Media Sosial</div>
             <div style={{
               background: 'var(--c-white, #ffffff)',
               border: '1px solid var(--c-border, #e5e7eb)',
@@ -1118,7 +1116,6 @@ function TentangPage({ navigate }) {
                 </a>
 
               </div>
-            </div>
             </div>
           </div>
         </div>
@@ -1408,7 +1405,7 @@ function SmpitPage({ navigate }) {
       </div>
       <div className="section">
         <div className="jd-wrap reveal">
-          <div className="jd-head"><h2>SMPIT Nur Antika</h2><p>Kepala Sekolah: <strong>Gus Ahmad Irsyad Al Faruq, M.Ag</strong></p></div>
+          <div className="jd-head"><h2 style={{ color: 'var(--c-cream)' }}>SMPIT Nur Antika</h2><p>Kepala Sekolah: <strong>Gus Ahmad Irsyad Al Faruq, M.Ag</strong></p></div>
           <div className="jd-body">
             <JdSection title="Tentang SMPIT" content="Selamat datang di SMP Nur Antika, sebuah lembaga pendidikan yang berkomitmen untuk menyediakan pendidikan berkualitas dengan pendekatan holistik yang memadukan nilai keislaman, akademik, dan pengembangan karakter secara menyeluruh." />
             <JdSection title="Visi" content="Menjadi lembaga pendidikan yang unggul dalam mengembangkan potensi akademik, karakter, dan kreativitas siswa untuk menghadapi tantangan global." />
@@ -1440,7 +1437,7 @@ function SmkitPage({ navigate }) {
       </div>
       <div className="section">
         <div className="jd-wrap reveal">
-          <div className="jd-head"><h2>SMKIT Nur Antika</h2><p>Kepala Sekolah: <strong>Umi Hj. Hayati Nupus, M.Pd.i</strong></p></div>
+          <div className="jd-head"><h2 style={{ color: 'var(--c-cream)' }}>SMKIT Nur Antika</h2><p>Kepala Sekolah: <strong>Umi Hj. Hayati Nupus, M.Pd.i</strong></p></div>
           <div className="jd-body">
             <JdSection title="Tentang SMKIT" content="Selamat datang di SMK Nur Antika, sekolah menengah kejuruan yang berdedikasi untuk memberikan pendidikan vokasional berkualitas tinggi dengan pendekatan yang berorientasi pada dunia kerja." />
             <JdSection title="Visi" content="Menjadi lembaga pendidikan kejuruan terkemuka yang menghasilkan lulusan yang kompeten dan siap menghadapi tantangan industri global." />
