@@ -87,8 +87,4 @@ npm run build
   - Telepon/WhatsApp: `082113463606`
   - Email: `pondokpesantrennurantika@gmail.com`
 
----
 
-## Lisensi
-
-Silakan menyesuaikan lisensi sesuai kebutuhan proyek/organisasi.
